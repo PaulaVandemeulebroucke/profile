@@ -1,0 +1,96 @@
+/* Google Fonts */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700/Montserrat:400,700');
+
+
+/* Fonts */
+
+body{
+  background-color: f4f4f4;
+}
+
+
+h1{
+}
+
+
+h2 {
+}
+
+
+a {
+}
+
+
+a:hover {
+}
+
+.container {
+  text-align: center;
+  margin: 0, auto;
+}
+
+#banner{
+/*  padding: 60px;*/
+}
+
+.white-card {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.list-inline{
+  list-style-type: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.img {
+  width: 300px;
+}
+
+.icones {
+  color: #e85c5c;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  width: 200px;
+}
+
+#banner p {
+}
+
+
+#footer{
+}
+
+
+#footer a:hover {
+}
+
+/* exemples:
+
+  background: rgb(245,245,245);
+  color: green;
+  padding: 150px;
+  opacity: 0.8;
+
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: lighter;
+
+*/
