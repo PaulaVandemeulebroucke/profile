@@ -5,41 +5,30 @@
 /* Fonts */
 
 body{
-  background-color: f4f4f4;
+  background-image: url(images/background.jpeg);
+  background-size: cover;
 }
-
-
-h1{
-}
-
-
-h2 {
-}
-
-
-a {
-}
-
 
 a:hover {
+  color: #9a747b;
 }
 
 .container {
   text-align: center;
-  margin: 0, auto;
+  margin: 10px auto;
+  width: 700px;
 }
 
-#banner{
-/*  padding: 60px;*/
+.video {
+  padding-bottom: 20px;
 }
 
 .white-card {
-  background: white;                          /* White background */
+  background-color: rgba(255, 255, 255, 0.96);                         /* White background */
   padding: 30px;                              /* Internal space */
   border-radius: 4px;                         /* Small radius */
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 500px;
 }
 
 .list-inline{
@@ -64,33 +53,28 @@ a:hover {
   width: 200px;
 }
 
-#banner p {
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-decoration: none;
+  font-size: 25px;
 }
 
+.list-inline-side{
+  list-style-type: none;
+  padding: 8px;
+  margin: 8px;
+  line-height: 3em;
+  color: white;
+  background-color: #fae9e8;
+  text-align: center;
+  height: 620px;
+}
 
 #footer{
-}
-
-
-#footer a:hover {
-}
-
-/* exemples:
-
-  background: rgb(245,245,245);
-  color: green;
-  padding: 150px;
-  opacity: 0.8;
-
-  text-decoration: none;
   text-align: center;
-  text-shadow: 1px 1px 5px black;
-
-  background-image: url("https://unsplash.it/1300/600?random");
-  background-size: cover;
-
-  font-size: 25px;
-  font-family: Helvetica;
-  font-weight: lighter;
-
-*/
+  background-color: rgba(255, 255, 255, 0.6);
+}
